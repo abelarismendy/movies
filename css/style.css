@@ -264,6 +264,9 @@ html {
 
     .container {
         grid-template: 4rem 1fr / 6rem 1fr;
+        grid-template-areas:
+        "up-bar up-bar"
+        "nav content";
     }
 
     .nav li {
